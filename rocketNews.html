@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./rocketNews.css">
     <title>RocktNews</title>
 </head>
 <body>
-    
+    <main class="content">
+        <div class="container">
+            <div>
+                <img class="logo" src="./assets/logo.svg" alt="">
+            </div>
+            <div class="copy">
+                <h1>atualize ideias e informações em 5 minutos.</h2>
+                <h2>tudo que você precisa saber para começar seu dia bem e informado</h3>
+                <p class="firstP">noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor. perfeito para se preparar para codar ☕</p>
+                <label class="label" for="email">Insira seu e-mail:</label>
+            </div>
+            <form action="">
+                <input id="email" type="email" placeholder="oi@rocketseat.com" required>
+                <button class="send"><img src="./assets/send.svg" alt="" width="80%" height="80%" style="filter: invert(99%) sepia(1%) saturate(5263%) hue-rotate(187deg) brightness(92%) contrast(96%);"></button>
+            </form>
+            <div  class="link">
+                <a href=""><p class="secondP">deixe-me ler primeiro </p><img src="./assets/arrow-right.svg" alt="" style="filter: invert(33%) sepia(33%) saturate(2516%) hue-rotate(235deg) brightness(86%) contrast(94%);"></a>
+            </div>
+        </div>
+    </main>
+    <div class="background">
+        <img class="backgroundImg" src="./assets/read_news.jpg" alt="">
+    </div>
 </body>
 </html>
